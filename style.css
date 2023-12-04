@@ -1,0 +1,58 @@
+body{
+    background-color: darkgrey;
+}
+
+.flexbox{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.flexbox1{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background: white;
+}
+.box1{
+    min-height: 100px;
+    flex-shrink: 0;
+}
+
+.box2{
+    min-height: 200px;
+    flex-grow: 2;
+}
+
+.box3{
+    min-height: 300px;
+}
+
+
+
+
+
+
+.photo-container{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+img{
+    height:300px;
+    
+}
+
+.gato{
+    flex-shrink: 0;
+}
+.gato2{
+    flex-grow: 2;
+}
+.gato3{
+    flex-shrink: 0;
+}
